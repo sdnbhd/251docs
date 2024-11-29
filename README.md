@@ -289,7 +289,7 @@ git branch -a
 git rm -rf .
 cp -rv site/* ../
 cd ../
-git rm -rf docs/ README.md .shsh
+rm -rf docs/ README.md .shsh
 git add .
 git commit -m "Deploy MkDocs site"
 git push origin gh-pages
@@ -302,7 +302,7 @@ git checkout master
 <hr>
 
 ```
-REVISI: Fri 29 Nov 2024 17:05
+REVISI: Fri 29 Nov 2024 17:06
 REVISI: Fri 29 Nov 2024 15:00
 REVISI: Fri 29 Nov 2024 14:04
 REVISI: Fri 29 Nov 2024 14:02
