@@ -103,7 +103,9 @@ date
 * E.g. repo "251docs/"
 
 ```
+# YOU ARE NOT SDNBHD!
 GITHUB="sdnbhd"
+
 REPO="251docs"
 git clone git@github.com:$GITHUB/$REPO.git
 cd $REPO/
@@ -305,11 +307,11 @@ git checkout master
 <hr>
 
 ```
+REVISI: Fri 29 Nov 2024 19:00
 REVISI: Fri 29 Nov 2024 18:00
 REVISI: Fri 29 Nov 2024 17:08
 REVISI: Fri 29 Nov 2024 15:00
 REVISI: Fri 29 Nov 2024 14:04
-REVISI: Fri 29 Nov 2024 14:02
 STARTX: Tue 26 Nov 2024 12:00
 ```
 
