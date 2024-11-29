@@ -117,7 +117,87 @@ cd $REPO/
 
 If you still not, go to (cd) repo "251docs/".
 Copy the following into your .gitignore file:
-https://raw.githubusercontent.com/cbkadal/251docs/master/.gitignore
+
+```
+# REVISI: Fri 29 Nov 2024 16:00
+# STARTX: Thu 28 Nov 2024 17:00
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+node_modules/
+parts/
+sdist/
+var/
+package*.json
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+*.log
+
+# Unit test / coverage reports
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*,cover
+.hypothesis/
+
+# Virtualenv
+venv/
+ENV/
+
+# MkDocs documentation
+site*/
+
+# Translations
+*.mo
+
+# Scrapy stuff:
+.scrapy
+
+# PyBuilder
+target/
+
+# IPython Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# Miscellaneous
+.mkdocs-env/
+*.tmp
+.DS_Store
+*.swp
+
+```
+
 
 
 [&#x213C;](#)<br id="idx006">
@@ -234,11 +314,11 @@ git checkout master
 <hr>
 
 ```
+REVISI: Fri 29 Nov 2024 17:00
 REVISI: Fri 29 Nov 2024 15:00
 REVISI: Fri 29 Nov 2024 14:04
 REVISI: Fri 29 Nov 2024 14:02
 REVISI: Fri 29 Nov 2024 14:01
-REVISI: Fri 29 Nov 2024 14:00
 STARTX: Tue 26 Nov 2024 12:00
 ```
 
