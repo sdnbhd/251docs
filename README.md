@@ -283,7 +283,8 @@ git push
 ```
 git show-ref  --quiet         refs/heads/gh-pages && git      branch -D       gh-pages
 git ls-remote --exit-code --heads origin gh-pages && git push origin --delete gh-pages
-git checkout    --orphan gh-pages
+git checkout  --orphan                   gh-pages
+git branch -a
 
 git rm -rf .
 cp -rv site/* ../
@@ -301,7 +302,7 @@ git checkout master
 <hr>
 
 ```
-REVISI: Fri 29 Nov 2024 17:04
+REVISI: Fri 29 Nov 2024 17:05
 REVISI: Fri 29 Nov 2024 15:00
 REVISI: Fri 29 Nov 2024 14:04
 REVISI: Fri 29 Nov 2024 14:02
