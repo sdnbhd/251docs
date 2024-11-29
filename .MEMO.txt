@@ -1,0 +1,39 @@
+# REVISI: Fri 29 Nov 2024 14:00
+# REVISI: Fri 29 Nov 2024 13:01
+# REVISI: Fri 29 Nov 2024 10:00
+# REVISI: Fri 29 Nov 2024 06:01
+# REVISI: Fri 29 Nov 2024 06:00
+# STARTX: Fri 29 Nov 2024 05:00
+
+
+# activate
+source ~/.virtualenvs/$(basename $(pwd))/bin/activate
+
+# Test from VirtualBox
+mkdocs serve --dev-addr=0.0.0.0:8000
+
+# deactivate
+deactivate
+
+# Upgrade and Clean
+pip install --upgrade pip mkdocs mkdocs-material
+pip cache purge
+
+# Build, commit, and push (master)
+mkdocs build
+git add .
+git commit -m "Save uncommitted changes"
+git push
+
+# Switch to gh-pages branch and back to master
+git push origin --delete gh-pages
+git checkout --orphan gh-pages
+git rm -rf .
+cp -rv site/* ../
+cd ../
+git rm -rf docs/ README.md .shsh
+git add .
+git commit -m "Deploy MkDocs site"
+git push origin gh-pages
+git checkout master
+
