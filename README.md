@@ -14,9 +14,10 @@
 * [Activate the Virtual Environment](#idx008)
 * [MkDocs and Plugins](#idx009)
 * [MkDocs inside folder "docs/"](#idx010)
-* [Test from VirtualBox](#idx011)
-* [Build the MkDocs site](#idx012)
-* [Switch to gh-pages branch and back to master](#idx013)
+* [File: "mkdocs.yml"]((#idx11)
+* [Test from VirtualBox](#idx012)
+* [Build the MkDocs site](#idx013)
+* [Switch to gh-pages branch and back to master](#idx014)
 
 [&#x213C;](#)<br id="idx001">
 ## Network Address Translation (NAT) Settings
@@ -256,6 +257,15 @@ mkdocs new .
 ```
 
 [&#x213C;](#)<br id="idx011">
+## File: mkdocs.yml 
+
+```
+site_name: 252docs
+
+```
+
+
+[&#x213C;](#)<br id="idx012">
 ## Test from VirtualBox
 
 * Check it out at "localhost:4999" (HOST)
@@ -265,7 +275,7 @@ mkdocs serve --dev-addr=0.0.0.0:8000
 
 ```
 
-[&#x213C;](#)<br id="idx012">
+[&#x213C;](#)<br id="idx013">
 ## Build the MkDocs site
 * Build, commit, and push (master)
 
@@ -276,7 +286,7 @@ git push
 
 ```
 
-[&#x213C;](#)<br id="idx013">
+[&#x213C;](#)<br id="idx014">
 ## Deploy
 
 ```
