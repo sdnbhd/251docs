@@ -258,12 +258,12 @@ mkdocs new .
 [&#x213C;](#)<br id="idx011">
 ## Test from VirtualBox
 
+* Check it out at "localhost:4999" (HOST)
+
 ```
 mkdocs serve --dev-addr=0.0.0.0:8000
 
 ```
-
-* Check it out at "localhost:4999" (HOST)
 
 [&#x213C;](#)<br id="idx012">
 ## Build the MkDocs site
@@ -301,7 +301,7 @@ git checkout master
 <hr>
 
 ```
-REVISI: Fri 29 Nov 2024 17:03
+REVISI: Fri 29 Nov 2024 17:04
 REVISI: Fri 29 Nov 2024 15:00
 REVISI: Fri 29 Nov 2024 14:04
 REVISI: Fri 29 Nov 2024 14:02
