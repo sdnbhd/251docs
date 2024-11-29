@@ -108,7 +108,7 @@ git clone git@github.com:$GITHUB/$REPO.git
 cd $REPO/
 
 ```
-* REMEMBER: You are not **CBKADAL**!
+* REMEMBER: You are not **SDNBHD**!
 * Write your memo on file "README.md".
   * Update/push "README.md" regularly.
 

@@ -1,3 +1,4 @@
+# REVISI: Fri 29 Nov 2024 16:00
 # REVISI: Fri 29 Nov 2024 15:00
 # REVISI: Fri 29 Nov 2024 10:00
 # REVISI: Fri 29 Nov 2024 05:00
@@ -13,17 +14,32 @@ __pycache__/
 .Python
 env/
 build/
+develop-eggs/
 dist/
+downloads/
 eggs/
 .eggs/
+lib/
+lib64/
+node_modules/
+parts/
+sdist/
+var/
+package*.json
 *.egg-info/
 .installed.cfg
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
 
 # Installer logs
 pip-log.txt
 pip-delete-this-directory.txt
 *.log
 
+# Unit test / coverage reports
 # Unit test / coverage reports
 htmlcov/
 .tox/
@@ -40,7 +56,22 @@ venv/
 ENV/
 
 # MkDocs documentation
-site/
+site*/
+
+# Translations
+*.mo
+
+# Scrapy stuff:
+.scrapy
+
+# PyBuilder
+target/
+
+# IPython Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
 
 # Miscellaneous
 .mkdocs-env/
