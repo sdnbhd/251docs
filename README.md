@@ -240,7 +240,6 @@ source ~/.virtualenvs/$(basename $(pwd))/bin/activate
 pip install --upgrade pip mkdocs mkdocs-material
 pip --version
 mkdocs --version
-mkdocs-material --version
 pip cache purge
 
 ```
@@ -301,7 +300,7 @@ git checkout master
 <hr>
 
 ```
-REVISI: Fri 29 Nov 2024 17:01
+REVISI: Fri 29 Nov 2024 17:02
 REVISI: Fri 29 Nov 2024 15:00
 REVISI: Fri 29 Nov 2024 14:04
 REVISI: Fri 29 Nov 2024 14:02
