@@ -270,7 +270,6 @@ mkdocs serve --dev-addr=0.0.0.0:8000
 * Build, commit, and push (master)
 
 ```
-mkdocs build
 git add .
 git commit -m "Save uncommitted changes"
 git push
@@ -278,22 +277,14 @@ git push
 ```
 
 [&#x213C;](#)<br id="idx013">
-## Switch to gh-pages branch and back to master
+## Deploy
 
 ```
-git show-ref  --quiet         refs/heads/gh-pages && git      branch -D       gh-pages
-git ls-remote --exit-code --heads origin gh-pages && git push origin --delete gh-pages
-git checkout  --orphan                   gh-pages
-git branch -a
-git status
-
-git rm -rf .
-cp -rv site/* ../
-cd ../
-rm -rf docs/ .shsh
+mkdocs gh-deploy --force --clean
+git checkout gh-pages
 echo "Checkit out at <https://sdnbhd.github.io/251docs/>, but your are not SDNBHD!" > README.md
 git add .
-git commit -m "Deploy MkDocs site"
+git commit -m "Include a README.md in gh-pages"
 git push origin gh-pages
 git checkout master
 
@@ -304,11 +295,11 @@ git checkout master
 <hr>
 
 ```
+REVISI: Fri 29 Nov 2024 18:00
 REVISI: Fri 29 Nov 2024 17:08
 REVISI: Fri 29 Nov 2024 15:00
 REVISI: Fri 29 Nov 2024 14:04
 REVISI: Fri 29 Nov 2024 14:02
-REVISI: Fri 29 Nov 2024 14:01
 STARTX: Tue 26 Nov 2024 12:00
 ```
 
