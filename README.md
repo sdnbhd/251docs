@@ -231,30 +231,17 @@ source ~/.virtualenvs/$(basename $(pwd))/bin/activate
 
 ```
 
-* And upgrading PIP inside the Virtual Environment
-
-```
-# Upgrade
-pip install --upgrade pip
-# Check the version
-pip --version
-
-```
-
 [&#x213C;](#)<br id="idx009">
 ## Install MkDocs and additional MkDocs plugins
-
-```
-pip install mkdocs mkdocs-material
-
-```
 
 * Upgrade, Clean Up, and Verify Version
 
 ```
 pip install --upgrade pip mkdocs mkdocs-material
-pip cache purge
+pip --version
 mkdocs --version
+mkdocs-material --version
+pip cache purge
 
 ```
 
@@ -314,7 +301,7 @@ git checkout master
 <hr>
 
 ```
-REVISI: Fri 29 Nov 2024 17:00
+REVISI: Fri 29 Nov 2024 17:01
 REVISI: Fri 29 Nov 2024 15:00
 REVISI: Fri 29 Nov 2024 14:04
 REVISI: Fri 29 Nov 2024 14:02
