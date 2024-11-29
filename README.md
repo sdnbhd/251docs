@@ -14,7 +14,7 @@
 * [Activate the Virtual Environment](#idx008)
 * [MkDocs and Plugins](#idx009)
 * [MkDocs inside folder "docs/"](#idx010)
-* [File: "mkdocs.yml"]((#idx11)
+* [File: "mkdocs.yml"](#idx11)
 * [Test from VirtualBox](#idx012)
 * [Build the MkDocs site](#idx013)
 * [Switch to gh-pages branch and back to master](#idx014)
@@ -307,7 +307,7 @@ git checkout master
 <hr>
 
 ```
-REVISI: Fri 29 Nov 2024 19:00
+REVISI: Fri 29 Nov 2024 19:01
 REVISI: Fri 29 Nov 2024 18:00
 REVISI: Fri 29 Nov 2024 17:08
 REVISI: Fri 29 Nov 2024 15:00
