@@ -297,12 +297,12 @@ git checkout master
 
 ```
 
-* Checkit out at <https://cbkadal.github.io/251docs/>, but your are not CBKADAL!
+* Checkit out at <https://sdnbhd.github.io/251docs/>, but your are not SDNBHD!
 
 <hr>
 
 ```
-REVISI: Fri 29 Nov 2024 17:06
+REVISI: Fri 29 Nov 2024 17:07
 REVISI: Fri 29 Nov 2024 15:00
 REVISI: Fri 29 Nov 2024 14:04
 REVISI: Fri 29 Nov 2024 14:02
