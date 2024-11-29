@@ -214,9 +214,8 @@ git push
 ## Switch to gh-pages branch and back to master
 
 ```
-git show-ref  --quiet         refs/heads/gh-pages || git  branch -D       gh-pages
-git ls-remote --exit-code --heads origin gh-pages || push origin --delete gh-pages
-git push origin --delete gh-pages
+git show-ref  --quiet         refs/heads/gh-pages && git      branch -D       gh-pages
+git ls-remote --exit-code --heads origin gh-pages && git push origin --delete gh-pages
 git checkout    --orphan gh-pages
 
 git rm -rf .
@@ -235,7 +234,7 @@ git checkout master
 <hr>
 
 ```
-REVISI: Fri 29 Nov 2024 14:03
+REVISI: Fri 29 Nov 2024 14:04
 REVISI: Fri 29 Nov 2024 14:02
 REVISI: Fri 29 Nov 2024 14:01
 REVISI: Fri 29 Nov 2024 14:00
