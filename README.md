@@ -289,7 +289,8 @@ git branch -a
 git rm -rf .
 cp -rv site/* ../
 cd ../
-rm -rf docs/ README.md .shsh
+rm -rf docs/ .shsh
+echo "Checkit out at <https://sdnbhd.github.io/251docs/>, but your are not SDNBHD!" > README.md
 git add .
 git commit -m "Deploy MkDocs site"
 git push origin gh-pages
